@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* apply styles to body */
 body {
     background-color: #d9dcd6;
 }
-/* modified header selectors to match changes in html */
+
+/* apply styles to header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,12 +42,13 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* defined where <a> is located */
+
 header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* apply styles to hero/jumbotron */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,30 +58,13 @@ header nav ul li a {
     background-position: center;
 }
 
-/* defined where <p> is located */
-.content p {
-    font-size: 16px;
-}
-
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* combined repetative code using new class labels */
+/* apply styles to content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* used parent classes to combine repetative code */
 .content img {
     max-height: 200px;
 }
@@ -97,6 +83,21 @@ header nav ul li a {
     color: #ffffff;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content p .benefit p {
+    font-size: 16px;
+}
+
+/* apply styles to benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,7 +109,6 @@ header nav ul li a {
     background-color: #2589bd;
 }
 
-/* combined repetative code using new class labels */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -125,7 +125,7 @@ header nav ul li a {
     max-width: 150px;
 }
 
-/* modified header selectors to match changes in html */
+/* apply styles to footer */
 footer {
     padding: 30px;
     clear: both;
